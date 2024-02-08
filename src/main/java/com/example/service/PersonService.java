@@ -46,6 +46,12 @@ public class PersonService {
 		p.setFirstName("webhook");
 		p.setLastName("testJenjinsJob");
 		persons.add(p);
+		p = new Person();
+		p.setId("5");
+		p.setAge(25);
+		p.setFirstName("hamid");
+		p.setLastName("moussa");
+		persons.add(p);
 		
 	}
 	public Person getPerson(String id) {
